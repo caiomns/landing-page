@@ -1,49 +1,77 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Landing-pade</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <link rel="stylesheet" href="style.css">
+
+  <title>Lading Page</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
 </head>
+
 <body>
-
-    <div id="sobre">
-        <div id="marca" >
-            <h1>semana de desenvolvimento</h1>
-        </div>
-
-        <p id="exclusivo" >curso exclusivo</p>
-        <h2>aprenda a criar uma landing pade</h2>
-        <p id="data">10/10/2022 | 13 horas | 100% gratuito</p>
-        <p id="descricao"> neste curso você vai aprender a desenvolver sistemas web</p>
-        <h4>palestrantes</h4>
-        <div id= "usuarios">
-
-            <div id="usuario">
-            <p class="nome">Caio Silva</p>
-            <p class="funcao">Desenvolvedor Web</p>
-            </div>
-
-            <div id="usuario">
-                <p class="nome">Caio Silva</p>
-                <p class="funcao">Desenvolvedor Web</p>
-            </div>
-
-                <div id="usuario">
-                    <p class="nome">Caio Silva</p>
-                    <p class="funcao">Desenvolvedor Web</p>
-                </div>
-        </div>
+  <div id="sobre">
+    <div id="marca">
+      <img src="./img/logo-dev.png" alt="">
+      <h1>Semana de Desenvolvimento</h1>
     </div>
+    <p id="exclusivo">Curso Exclusivo</p>
+    <h2>Aprenda a criar uma Landing Page</h2>
+    <p id="data">10/10/2022 | 13 horas | 100% Gratuito</p>
+    <p id="descricao">
+      Neste curso você vai aprender a desenvolver sistemas WEB.
+    </p>
 
-    <div id="form">
-        <div id="interno">
-            <h3>inscreva-se!</h3>
-            <p>não perca a oportunidade de aprender com especialistas e tirar suas dúvidas</p>
-        </div>
+    <h4>Palestrantes</h4>
+    <div id="usuarios">
+      <div class="usuario">
+        <img src="./img/virgingod.webp" alt="">
+        <p class="nome">Mateus (virgingod)
+        </p>
+        <p class="funcao">Músico</p>
+      </div>
+      <div class="usuario">
+        <img src="./img/glaive1.jpg" alt="">
+        <p class="nome">Ash (glaive)</p>
+        <p class="funcao">Músico</p>
+      </div>
+      <div class="usuario">
+        <img src="./img/amanda1.jpg" alt="">
+        <p class="nome">Amanda (Linda)</p>
+        <p class="funcao">Atriz</p>
+      </div>
     </div>
+  </div>
+
+  <div id="form">
+    <div id="interno">
+      <h3>Inscreva-se!</h3>
+      <p>
+        Não perca a oportunidade de aprender com especialistas e tirar suas dúvidas
+      </p>
+      <form id="registrar">
+        <div id="nome">
+          <input type="text" name="nome" id="nome" placeholder="Nome">  
+        </div>
+        <input type="email" name="email" id="email" placeholder="E-mail">
+        <input type="submit" value="Cadastrar">
+      </form>
+      <div id="beneficios">
+        <h4>O que vamos aprender:</h4>
+        <ul>
+          <li>Como criar o primeiro site</li>
+          <li>Como criar o primeiro site</li>
+          <li>Como criar o primeiro site</li>
+          <li>Como criar o primeiro site</li>
+        </ul>
+      </div>
+    </div>
+  </div>
 
 </body>
 </html>
